@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="200" viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Hi 👋, I'm Shreyas — Full-Stack Developer | AI & DevOps Enthusiast | Problem Solver">
+  <title>Hi 👋, I'm Shreyas — Full-Stack Developer | AI & DevOps Enthusiast | Problem Solver</title>
+
+  <!-- First line floating -->
+  <g transform="translate(0,0)">
+    <text x="50%" y="70" text-anchor="middle" font-size="42" fill="#FF7A00"
+          font-family="Segoe UI, Inter, Arial, sans-serif">Hi 👋, I'm Shreyas</text>
+    <animateTransform attributeName="transform" type="translate"
+      values="0 0; 0 -10; 0 0" dur="3s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- Second line floating with delay -->
+  <g transform="translate(0,0)">
+    <text x="50%" y="140" text-anchor="middle" font-size="20" fill="#FFFFFF"
+          font-family="Segoe UI, Inter, Arial, sans-serif">
+      Full-Stack Developer | AI &amp; DevOps Enthusiast | Problem Solver
+    </text>
+    <animateTransform attributeName="transform" type="translate"
+      values="0 0; 0 -10; 0 0" dur="3s" begin="1.5s" repeatCount="indefinite"/>
+  </g>
+</svg>
